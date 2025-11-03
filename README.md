@@ -231,11 +231,11 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-copy/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/@stdlib/ndarray/dtypes
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/@stdlib/ndarray/base/ctor
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/@stdlib/ndarray/ctor
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
 </section>
 

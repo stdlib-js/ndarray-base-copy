@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@esm/index.mjs';
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@v0.1.0-esm/index.mjs';
 ```
 
 #### copy( x )
@@ -107,7 +107,7 @@ var sh = getShape( y );
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@esm/index.mjs';
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@v0.1.0-esm/index.mjs';
 
 var xbuf = bernoulli( 10, 0.9, {
     'dtype': 'generic'

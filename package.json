@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-copy",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Copy an input ndarray to a new ndarray having the same shape and data type.",
   "license": "Apache-2.0",
   "author": {
@@ -42,9 +42,9 @@
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-bool": "^0.1.0",
-    "@stdlib/array-complex128": "^0.3.0",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-bool": "^0.1.1",
+    "@stdlib/array-complex128": "^0.3.1",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-int16": "^0.2.2",
@@ -54,10 +54,10 @@
     "@stdlib/array-uint32": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
     "@stdlib/array-uint8c": "^0.2.2",
-    "@stdlib/assert-instance-of": "^0.2.2",
+    "@stdlib/assert-instance-of": "^0.3.0",
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/ndarray-array": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-equal-data-type": "github:stdlib-js/ndarray-base-assert-is-equal-data-type#main",
+    "@stdlib/ndarray-base-assert-is-equal-data-type": "^0.1.0",
     "@stdlib/ndarray-base-ctor": "^0.2.2",
     "@stdlib/ndarray-base-zeros": "^0.3.0",
     "@stdlib/ndarray-ctor": "^0.2.2",

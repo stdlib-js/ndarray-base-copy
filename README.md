@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-copy/tags). For example,
+
+```javascript
 import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@v0.1.1-esm/index.mjs';
 ```
 
@@ -107,7 +112,7 @@ var sh = getShape( y );
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@v0.1.1-esm/index.mjs';
+import copy from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-copy@esm/index.mjs';
 
 var xbuf = bernoulli( 10, 0.9, {
     'dtype': 'generic'

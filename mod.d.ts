@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,38 +16,42 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var emptyLike = require( '@stdlib/ndarray-base-empty-like' );
-var assign = require( '@stdlib/ndarray-base-assign' );
-
-
-// MAIN //
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Copies an input ndarray to a new ndarray having the same shape and data type.
 *
-* @param {ndarray} x - input ndarray
-* @returns {ndarray} output ndarray
+* ## Notes
+*
+* -   The function performs a full copy in which an ndarray's underlying data is copied to a new underlying data buffer.
+*
+* @param x - input array
+* @returns output array
 *
 * @example
+* var getShape = require( '@stdlib/ndarray-shape' );
+* var getDType = require( '@stdlib/ndarray-dtype' );
 * var zeros = require( '@stdlib/ndarray-base-zeros' );
 *
 * var x = zeros( 'float64', [ 2, 2 ], 'row-major' );
 * // returns <ndarray>
 *
+* var sh = getShape( x );
+* // returns [ 2, 2 ]
+*
 * var y = copy( x );
 * // returns <ndarray>
+*
+* sh = getShape( y );
+* // returns [ 2, 2 ]
 */
-function copy( x ) {
-	var out = emptyLike( x );
-	assign( [ x, out ] );
-	return out;
-}
+declare function copy<T extends ndarray = ndarray>( x: T ): T;
 
 
 // EXPORTS //
 
-module.exports = copy;
+export = copy;
